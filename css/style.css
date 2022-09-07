@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans:wght@400;700&display=swap');
+
+* {
+   padding: 0;
+   margin: 0;
+
+}
+body {
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 17px;
+    padding: 0;
+    margin: 0;
+    line-height: 1.5;
+    color: #555;
+}
+img {
+    width: 100%;
+    border-radius: 6px;
+    margin: 16px 0;
+}
+
+p {
+    margin-bottom: 20px ;
+
+}
+hr {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 400;
+
+}
+
+a {
+    color: #00aced;
+    text-decoration: none;
+}
+a:hover {
+    color: #0C8EBF;
+    text-decoration: underline;
+}
+
+.menu {
+    background:  #22b0ee;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+.list {
+    display: inline-block;
+    padding: 15px;
+}
+.list:hover {
+     background: #1A97CE;
+
+}       
+
+.menu .list a {
+    color: white;
+   
+}
+.menu .list a:hover {
+    text-decoration: none;
+}
+/* nomor 8(body)-65 itu untuk style paling atas page login dll*/
+
+.header {
+    background: #1A97CE;
+    color: white;
+    padding: 8px 0;
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+
+.header-title {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+.card {
+    border: 1px solid #eee;
+    padding: 200px;
+    margin: 20px;
+    border-radius: 20px;
+    padding-top: 8px;
+}
+
+.card-title {
+    margin-bottom: 15px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group .form {
+    border-radius: 6px;
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    outline: none;
+    padding-left: 10px;
+    border: 1px solid #aaa;
+    box-sizing: border-box;
+
+}
+
+.form-group .form:focus {
+    border: 1px solid #0C8EBF;
+}
+
+.button {
+/*     padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px; */
+    padding: 13px 20px;
+    border: none;
+    background: #444;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+
+.button.blue {
+    background: #0a91d1;
+}
+
+.button.blue:hover {
+    background: #0d6b98;
+}
+
+.wrapper {
+    width: 50%;
+    margin: auto;
+}
+
+textarea.form {
+    padding: 10px;
+    height:auto !important;
+    resize:none;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+ul li {
+    list-style-type: none;
+}
+
+.content, .sidebar {
+    padding: 30px;
+}
+.content {
+    float: left;
+    width: 750px;
+}
+
+/* ini untuk membuat sisi kontent ke kanan */
+.sidebar {
+    float: right;
+    width: 300px;
+    border-left: 1px solid #ddd;
+}
+
+/* ini untuk membuat menu yg ada di samping kanan index file */
+.navbar-sidebar{
+    margin-bottom: 30px;
+}
+.navbar-sidebar li{
+    border-bottom: 1px solid #ddd;
+    padding: 10px ; /* 10px /* kanan */ /* 10px *//* kiri */ */
+    padding-left: 0;
+}
+
+.navbar-sidebar li a {
+    color: #1A97CE;
+}
+
+.navbar-sidebar li a:hover {
+    text-decoration: none;
+    color: #2CB8F5
+}
+
+/* ini adalah style untuk footer (yg paling bawah) */
+
+.footer{
+    clear: both;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 30px;
+}
+
+/* membuat komen (ctrl+/) */
+/* ini adalah style untuk membuat kotak dengan memanggil class well */
+.well{
+    padding: 300px;
+    border:1px solid #eee;
+    background: #fafafa;
+    border-radius: 30px;
+    margin-bottom: 5px;
+    padding-top: 8px;
+    padding-bottom: 30px;
+    font-size: 20px;
+   
+}
+.well-whitesmoke{
+    background: whitesmoke;
+    color: black;
+    font-size: 20px;
+
+}
+.well-whitesmoke{
+    background: whitesmoke;
+    color: black;
+    font-size: 20px;
+
+}
+
